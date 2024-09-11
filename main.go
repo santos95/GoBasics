@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/santos95/GoBasics/Variables"
+	"runtime"
 )
 
 func main() {
@@ -22,4 +23,31 @@ func main() {
 	state, text := Variables.ConvertToText(200)
 	fmt.Println("State: ", state)
 	fmt.Println("Converted: ", text)
+
+	// chapter 5 - control structures
+	// the runtime package allow us to get info of our enviroment - so, arquitecture, enviroment variables..
+
+	// if structure - allow us to assing and inmediatly evaluate as follows:
+
+	if os := runtime.GOOS; os == "Linux" {
+
+		fmt.Println("This is a linux enviroment")
+	} else {
+
+		fmt.Println("This is a ", os, " enviroment.")
+	}
+
+	// we can only evaluate if os == "Linux" {}
+
+	// switch structure
+	fmt.Println("Switch structure:")
+	switch os := runtime.GOOS; os {
+
+	case "Linux":
+		fmt.Println("This is a linux environment!")
+	case "Darwin":
+		fmt.Println("This is a Darwin envirnment")
+	default:
+		fmt.Printf("This is a %s  environment!\n", os)
+	}
 }
