@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/santos95/GoBasics/Exercises"
 	"github.com/santos95/GoBasics/Variables"
 	"runtime"
 )
@@ -50,4 +51,9 @@ func main() {
 	default:
 		fmt.Printf("This is a %s  environment!\n", os)
 	}
+
+	// exercise 1
+	result1, result2 := Exercises.ExerciseStringConverter("200")
+	fmt.Println("Result1: ", result1)
+	fmt.Println("Result2: ", result2)
 }
