@@ -53,7 +53,6 @@ func main() {
 	}
 
 	// exercise 1
-	result1, result2 := Exercises.ExerciseStringConverter("200")
-	fmt.Println("Result1: ", result1)
-	fmt.Println("Result2: ", result2)
+	num, stringOut := Exercises.ExerciseStringConverter("ok")
+	fmt.Println("Result1: ", num, ", ", stringOut)
 }
