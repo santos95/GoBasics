@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/santos95/GoBasics/Exercises"
 	"github.com/santos95/GoBasics/Variables"
+	"github.com/santos95/GoBasics/keyboard"
 	"runtime"
 )
 
@@ -55,4 +56,7 @@ func main() {
 	// exercise 1
 	num, stringOut := Exercises.ExerciseStringConverter("ok")
 	fmt.Println("Result1: ", num, ", ", stringOut)
+
+	// chapter6 input/output from console
+	keyboard.InputNumbers()
 }
