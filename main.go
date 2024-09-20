@@ -62,4 +62,7 @@ func main() {
 
 	// chapter7 loops
 	loops.PerformLoop()
+
+	// exercise 2
+	Exercises.GetNumber()
 }

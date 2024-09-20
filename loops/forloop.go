@@ -24,12 +24,21 @@ func PerformLoop() {
 	// optimize the previous
 	for j := 0; j <= 100; j += 5 {
 
+		// breaks the loop when j is equal to - abort the loop execution
+		if j == 20 {
+			break
+		}
 		fmt.Println(j)
 	}
 
 	// optimize the previous
 	for j := 100; j >= 10; j -= 5 {
 
+		// with the continue the condition is re-evaluted and avoid the execution of the subsequence instructions
+		if j == 20 {
+			continue
+		}
+		// when j == 20 this line is not executed
 		fmt.Println(j)
 	}
 
