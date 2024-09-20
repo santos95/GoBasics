@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/santos95/GoBasics/Exercises"
 	"github.com/santos95/GoBasics/Variables"
+	"github.com/santos95/GoBasics/fileManagment"
 	"github.com/santos95/GoBasics/loops"
 	"runtime"
 )
@@ -65,4 +66,13 @@ func main() {
 
 	// exercise 2
 	Exercises.GetNumber()
+
+	// chapter 8 - file managment
+	fmt.Println("This is the file managment output:")
+	//fmt.Println(Exercises.GetNumberMultiplicationChartText())
+	//fileManagment.WriteMultiChartIntoFIle()
+	fileManagment.AppendMultiChartIntoFile()
+
+	fmt.Println("This is file managment read file:")
+	fileManagment.ReadFile()
 }
