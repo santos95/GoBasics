@@ -76,3 +76,36 @@ The multiplication chart for the number 10 is:
 10 x 8 = 80 
 10 x 9 = 90 
 10 x 10 = 100 
+The multiplication chart for the number 1 is:
+1 x 1 = 1 
+1 x 2 = 2 
+1 x 3 = 3 
+1 x 4 = 4 
+1 x 5 = 5 
+1 x 6 = 6 
+1 x 7 = 7 
+1 x 8 = 8 
+1 x 9 = 9 
+1 x 10 = 10 
+The multiplication chart for the number 1 is:
+1 x 1 = 1 
+1 x 2 = 2 
+1 x 3 = 3 
+1 x 4 = 4 
+1 x 5 = 5 
+1 x 6 = 6 
+1 x 7 = 7 
+1 x 8 = 8 
+1 x 9 = 9 
+1 x 10 = 10 
+The multiplication chart for the number 20 is:
+20 x 1 = 20 
+20 x 2 = 40 
+20 x 3 = 60 
+20 x 4 = 80 
+20 x 5 = 100 
+20 x 6 = 120 
+20 x 7 = 140 
+20 x 8 = 160 
+20 x 9 = 180 
+20 x 10 = 200 

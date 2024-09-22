@@ -5,6 +5,7 @@ import (
 	"github.com/santos95/GoBasics/Exercises"
 	"github.com/santos95/GoBasics/Variables"
 	"github.com/santos95/GoBasics/fileManagment"
+	"github.com/santos95/GoBasics/functions"
 	"github.com/santos95/GoBasics/loops"
 	"runtime"
 )
@@ -71,8 +72,15 @@ func main() {
 	fmt.Println("This is the file managment output:")
 	//fmt.Println(Exercises.GetNumberMultiplicationChartText())
 	//fileManagment.WriteMultiChartIntoFIle()
-	fileManagment.AppendMultiChartIntoFile()
+	// comment to avoid adding more data to the file for now
+	//fileManagment.AppendMultiChartIntoFile()
 
+	// read and print the file into the command line
 	fmt.Println("This is file managment read file:")
 	fileManagment.ReadFile()
+
+	// chapter 9 - anonymous functions and closures
+	functions.MathOperation()
+	fmt.Println("Closure use:")
+	functions.CallClosure()
 }
