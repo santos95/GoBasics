@@ -7,6 +7,7 @@ import (
 	"os"
 )
 
+// the route for the file to gererate
 var fileName string = "./fileManagment/files/multiBoard.txt"
 
 // function to write into a file
