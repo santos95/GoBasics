@@ -83,4 +83,7 @@ func main() {
 	functions.MathOperation()
 	fmt.Println("Closure use:")
 	functions.CallClosure()
+
+	// chapter 10 - recursion
+	functions.PowerOf()
 }
