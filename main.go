@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/santos95/GoBasics/Exercises"
 	"github.com/santos95/GoBasics/Variables"
+	"github.com/santos95/GoBasics/arraysSlices"
 	"github.com/santos95/GoBasics/fileManagment"
 	"github.com/santos95/GoBasics/functions"
 	"github.com/santos95/GoBasics/loops"
@@ -86,4 +87,7 @@ func main() {
 
 	// chapter 10 - recursion
 	functions.PowerOf()
+
+	// chapter 11 - arrays
+	arraysSlices.ShowArray()
 }
