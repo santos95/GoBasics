@@ -81,13 +81,19 @@ func main() {
 	fileManagment.ReadFile()
 
 	// chapter 9 - anonymous functions and closures
+	fmt.Println("Chapter 9 - Anonymous Functions and Closures")
 	functions.MathOperation()
 	fmt.Println("Closure use:")
 	functions.CallClosure()
 
 	// chapter 10 - recursion
+	fmt.Println("Lecture 10 - Recursion")
 	functions.PowerOf()
 
 	// chapter 11 - arrays
+	fmt.Println("Chapter 11 - Arrays")
 	arraysSlices.ShowArray()
+
+	fmt.Println("Chapter 11 - Slices")
+	arraysSlices.ShowSlices()
 }
